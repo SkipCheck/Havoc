@@ -1,35 +1,32 @@
 # Havoc
 
-A [libGDX](https://libgdx.com/) project generated with [gdx-liftoff](https://github.com/libgdx/gdx-liftoff).
+3D Шутер от первого лица в ретро-стилистике 90-х, разработанный на Java с использованием фреймворка LibGDX.
 
-This project was generated with a template including simple application launchers and an `ApplicationAdapter` extension that draws libGDX logo.
+## 🎮 О проекте
 
-## Platforms
+Havoc — это 3D шутер, вдохновленный классическими играми 90-х годов. Проект сочетает в себе низкополигональную графику, пиксельные текстуры и динамичный геймплей в лучших традициях жанра, с добавлением современных игровых механик и технологий.
 
-- `core`: Main module with the application logic shared by all platforms.
-- `lwjgl3`: Primary desktop platform using LWJGL3; was called 'desktop' in older docs.
-- `server`: A separate application without access to the `core` module.
+## ✨ Особенности
 
-## Gradle
+- **Ретро-стилистика**: Низкополигональная графика и пиксельные текстуры
+- **Динамичный геймплей**: Быстрое перемещение и разнообразное оружие
+- **Продвинутый ИИ**: Противники с интеллектуальным поведением на основе конечных автоматов
+- **Система прокачки**: Улучшение характеристик персонажа между уровнями
+- **Полная настройка**: Гибкие настройки управления, графики и звука
+- **Надежные сохранения**: Шифрование данных сохранений (AES + HMAC)
+- **Кроссплатформенность**: Поддержка PC, Android и веб-сборки
 
-This project uses [Gradle](https://gradle.org/) to manage dependencies.
-The Gradle wrapper was included, so you can run Gradle tasks using `gradlew.bat` or `./gradlew` commands.
-Useful Gradle tasks and flags:
+## 🖼️ Скриншоты
 
-- `--continue`: when using this flag, errors will not stop the tasks from running.
-- `--daemon`: thanks to this flag, Gradle daemon will be used to run chosen tasks.
-- `--offline`: when using this flag, cached dependency archives will be used.
-- `--refresh-dependencies`: this flag forces validation of all dependencies. Useful for snapshot versions.
-- `build`: builds sources and archives of every project.
-- `cleanEclipse`: removes Eclipse project data.
-- `cleanIdea`: removes IntelliJ project data.
-- `clean`: removes `build` folders, which store compiled classes and built archives.
-- `eclipse`: generates Eclipse project data.
-- `idea`: generates IntelliJ project data.
-- `lwjgl3:jar`: builds application's runnable jar, which can be found at `lwjgl3/build/libs`.
-- `lwjgl3:run`: starts the application.
-- `server:run`: runs the server application.
-- `test`: runs unit tests (if any).
+![Главное меню](screenshots/main_menu.png)
+![Геймплей](screenshots/gameplay.png)
 
-Note that most tasks that are not specific to a single project can be run with `name:` prefix, where the `name` should be replaced with the ID of a specific project.
-For example, `core:clean` removes `build` folder only from the `core` project.
+## 🛠️ Технологии
+
+- **Язык программирования**: Java 17
+- **Фреймворк**: LibGDX
+- **Физика**: Bullet Physics
+- **Искусственный интеллект**: gdx-ai
+- **3D-моделирование**: Blender
+- **Графика**: Adobe Photoshop
+- **Сборка**: Gradle
