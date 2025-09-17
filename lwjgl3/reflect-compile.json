@@ -1,0 +1,9 @@
+[
+  {
+    "name": "com.hexedrealms.lwjgl3.Lwjgl3Launcher",
+    "allDeclaredConstructors": true,
+    "allPublicConstructors": true,
+    "allDeclaredMethods": true,
+    "allPublicMethods": true
+  }
+]

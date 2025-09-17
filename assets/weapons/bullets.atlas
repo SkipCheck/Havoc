@@ -1,0 +1,12 @@
+bullets.png
+size:256,64
+repeat:none
+wizard
+index:3
+bounds:2,2,55,48
+wizard
+index:2
+bounds:59,3,55,47
+wizard
+index:1
+bounds:116,3,53,47
